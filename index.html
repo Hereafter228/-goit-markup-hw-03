@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My page</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -15,39 +15,54 @@
 </head>
 
     <header>
-        <nav>
+        <div class="container head-container">
+    
+        <nav class="header-navigator">
         
         <a  href="./index.html" class="head-logo">  Web<span class="head-logo-text">Studio</span></a>
         <ul class="logo-item">
-       
+    
              <li><a href="./index.html" class="first-item-logo">Studio</a></li>
              <li><a href="" class="first-item-logo">Portfolio</a></li>
              <li><a href="" class="first-item-logo">Contacts</a></li>
+    
         </ul>
        
     </nav>
+    
     <address class="mail" >
-        <ul >
+       
+        <ul class="adress-flex">
+
             <li> <a href="mailto:info@devstudio.com" class="logo-adress">info@devstudio.com</a></li>
              <li> <a class="logo-adress" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             
 
         </ul>
-
     </address>
+    
+    </div>
 
     
 </header>
 
     <main>
+        
         <section class="logo-fon">
+            <div class="midle-piece-flex">
+            
             <h1 class="midle-piece">Effective Solutions for Your Business</h1>
+        
             <button type="button" class="first-button">Order Service</button>
+            </div>
     </section>
-   
+       
+
+
+        <div class="section">
         <section >
-            <h2 >Your business</h2>
-            <ul>
+            <h2 class="Yo-business-flex">Your business</h2>
+            <ul class="business-flex-list">
             <li>
                 <h3 class="business-logo-q">Strategy</h3>
                 <p class="business-text-q">Our goal is to identify the business
@@ -70,9 +85,11 @@
         </ul>
 
         </section>
+        </div>
+        <div class="section">
         <section class="thirt-section-team">
             <h2 class="team-paragraf-col">Our Team</h2>
-            <ul>
+            <ul div class="team-list-flex">
                 <li class="first-photo">
                     <img class="item" src="./images/1.jpg" alt="Mark Guerrero" 
                     width="264"/>
@@ -100,9 +117,12 @@
             </ul>
         
         </section>
-        <section>
+        </div>
+        </div>
+         
+        <div class="section">
             <h2>Our Portfolio</h2>
-            <ul>
+            <ul div class="porltfolio-flex">
                 <li><img src="./images/y.jpg" alt="Banking App" width="360" />
                 <h3 class="portfolio-logo-q">Banking App</h3>
                 <p class="portfolio-text-q">App</p>
@@ -129,13 +149,16 @@
                 </li>
             </ul>
         </section>
+        </div>
+        </div>
     </main>
         
          <footer class="legs">
             
+            
     <a href="./index.html" class="down"> Web<span class="down-second">Studio</span></a>
-            <p class="down-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-       
+            <p class="down-text">Increase the flow of customers and <br>sales for your business with digital <br> marketing & growth solutions.</p>
+            
     </footer>
 </body>
 </html>
