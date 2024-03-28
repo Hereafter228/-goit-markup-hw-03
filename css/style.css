@@ -254,7 +254,9 @@ padding: 120px 0 120px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;}
-
+.our-portfolio-flex{
+    margin-bottom: 72px;
+}
 .portfolio-logo-q{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -265,11 +267,17 @@ padding: 120px 0 120px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;}
-.porltfolio-flex{
+.porltfolio-flex-q{
     display: flex;
     flex-wrap: wrap;
-gap: 24px;
+row-gap: 48px;
 
+}
+.flex-container-apps{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
 }
 
 .legs{
