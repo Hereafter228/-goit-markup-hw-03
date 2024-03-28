@@ -182,7 +182,9 @@ color: #404bbf;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+    display: block;
+        margin-bottom: 8px}
     .business-flex-list {
 display: flex;
 gap: 24px;
@@ -192,6 +194,9 @@ gap: 24px;
             display: flex;
             justify-content: center;
             padding-bottom: 16px;
+        }
+        .business-item-flex{
+            width: calc((100% - 72px) / 4);
         }
 .business-text-q{font-weight: 400;
     font-size: 20px;
@@ -258,6 +263,8 @@ gap: 24px;
 
 .legs{
     background-color: #2e2f42;
+    display: block;
+    padding: 100px 0 100px
     
     }
    
@@ -273,6 +280,8 @@ gap: 24px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        display: inline-block;
+        margin-bottom: 16px;
 }
 .down-second{
 
@@ -282,7 +291,11 @@ gap: 24px;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        color: #f4f4fd;}
+        color: #f4f4fd;
+        display: inline-block;
+        margin-bottom: 16px;}
+                 
+
 .down-text{
     font-weight: 400;
         font-size: 16px;
