@@ -139,7 +139,7 @@ color: #404bbf;
 .mail{
     font-style: normal;
 }
-.midle-piece{
+.midle-piece-zagl{
 
     font-weight: 700;
         font-size: 56px;
@@ -152,7 +152,7 @@ color: #404bbf;
         margin-right:  auto;
 }
 
-.first-button{
+.first-button-logo{
     font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 16px;
@@ -163,10 +163,11 @@ color: #404bbf;
             color: white;
             cursor: pointer;
         border-radius: 4px;
+        display: block;
             padding: 16px 32px;
             min-width: 169px;
             height: 56px;
-            display: block;
+            
 
 
 }
