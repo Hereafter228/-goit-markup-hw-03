@@ -206,11 +206,13 @@ gap: 24px;
     color: #434455;
     width: calc((100% - 72 * 3) / 3);
 }
-.first-photo{
+.first-photo-flex{
     background-color: #FFFFFF;
 }
 .thirt-section-team{
 background-color: #F4F4FD;
+display: block;
+padding: 120px 0 120px;
 }
 .style-li-full {
     background: #fff;
@@ -230,7 +232,8 @@ background-color: #F4F4FD;
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF;}
+    background-color: #FFFFFF;
+    margin-bottom: 72px}
 
 .team-logo-q{font-weight: 500;
     font-size: 20px;
