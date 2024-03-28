@@ -256,12 +256,14 @@ padding: 120px 0 120px;
     color: #434455;}
 .our-portfolio-flex{
     margin-bottom: 72px;
+    
 }
 .portfolio-logo-q{font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;}
+    color: #2e2f42;
+margin-bottom: 8px}
 .portfolio-text-q{font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -271,6 +273,7 @@ padding: 120px 0 120px;
     display: flex;
     flex-wrap: wrap;
 row-gap: 48px;
+column-gap: 24px;
 
 }
 .flex-container-apps{
