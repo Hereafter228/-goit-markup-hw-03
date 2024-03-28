@@ -48,11 +48,14 @@ header{
 .logo-item {
 display: flex;
 gap: 40px;
-margin-left: 76px;
+
 }
 .adress-flex {
     display: flex;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
     
     
 }
